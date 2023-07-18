@@ -1,0 +1,61 @@
+.image-slider {
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+}
+
+.image-slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 1; /* Increase the opacity of the buttons on hover */
+}
+
+.slick-prev,
+.slick-next {
+  height: 50px; /* Set a fixed height for the buttons */
+  width: 50px; /* Set a fixed width for the buttons */
+  background-color: #ffffff; /* Change the background color of the buttons */
+  border-radius: 50%; /* Make the buttons circular */
+  opacity: 0.7; /* Set the opacity of the buttons */
+}
+
+.image-slider .slick-prev {
+  left: 0;
+}
+
+.image-slider .slick-next {
+  right: 0;
+}

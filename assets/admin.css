@@ -1,0 +1,23 @@
+.add-image {
+  background-color: #0129ac !important;
+  color: #fff !important;
+  padding-top: 5px !important;
+  padding-bottom: 10px !important;
+  border-radius: 10px !important;
+  width: 150px;
+  text-align: center;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+#image_slider_images_metabox {
+  background-color: #bfe1ff;
+}
+
+#image_slider_images_metabox .postbox-header {
+  background-color: #0129ac;
+}
+#image_slider_images_metabox .ui-sortable-handle {
+  color: #fff;
+}
+
+
